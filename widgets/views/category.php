@@ -1,7 +1,7 @@
 <!--OUR-EVENTS-->
 <section class="events">
     <div class="container">
-        <h2 class="events-title">Our Events</h2>
+        <h2 class="events-title"><?= Yii::t("app", "category")?></h2>
         <div class="line"></div>
         <div id="events-v2" class="owl-carousel owl-theme">
             <div class="item ">

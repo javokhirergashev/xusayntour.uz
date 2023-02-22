@@ -2,7 +2,6 @@
 return[
 
     "book" => "Buyurtma berish",
-    "tour" => "Sayohat",
 
 
 //    slider page
@@ -13,23 +12,18 @@ return[
 
 
 //    Services page
-    "servicinfo" => "Bizning xizmatlar",
-    "extreme" => "Ekstremal sayohatlar",
-    "extremep" => "Biz sizga turli xil davlatlarda extremal sayohatlar taklif qilamiz",
-    "cost" => "Qulay narxlar",
-    "costp" => "Siz hohlagan usulda to'lov tizimi. Arzon va qulay",
-    "online" => "Online buyurtma",
-    "onlinep" => "Bizning saytimiz orqali siz sayohat uchun online chipta olishingiz mumkun",
-
+    "service1" => "Hamyonbop Mehmonxonalar",
+    "service2" => "Betakror Manzaralar",
+    "service3" => "Doimiy aloqa",
+    "service4" => "Ajoyib xizmat ko'rsatish",
+    "service5" => "Mazali taomlar",
+    "service6" => "Taxi xizmati",
 
 
 //    About page
-    "aboutinfo" => "Biz haqimizda",
-    "aboutp1" => "Yaxshi turizmga ega har qanday mamlakatni tanlashingiz mumkin. Biz siz uchun barcha qulayliklarni yaratib beramiz. Bizda  siz uchun qulay narxlar sarguzashtga boy sayohatlar mavjud.",
-    "aboutp2" => "Bizning mehmonxonalarimiz siz uchun juda qulay va xamyonbob",
-    "experience" => "Yillik tajriba",
-    "tourdes" => "dan ortiq sayohalar",
-    'information' => "Ma'lumot uchun",
+    "about" => "Biz haqimizda",
+    "about1" => "Yaxshi turizmga ega har qanday mamlakatni tanlashingiz mumkin. Biz siz uchun barcha qulayliklarni yaratib beramiz. Bizda  siz uchun qulay narxlar sarguzashtga boy sayohatlar mavjud. Bizning mehmonxonalarimiz siz uchun juda qulay va xamyonbob",
+    "about2" => "Siz uchun ma'qul bo'lgan tur paketni tanlash va sayohatga buyurtma berish orqali siz orzuyingizdagi sarguzashtlarga guvoh bo'lishingiz mumkin",
 
 
 
@@ -38,9 +32,7 @@ return[
 
 
 //    Tours page
-    "tours" => "tur paketlar",
-    "popular" => "Mashxur",
-    "poptours" => "Sayohatlar",
+    "tours" => "Tur paketlar",
 
 //    Counter page
     "flight" => "Parvozni bron qilish",
@@ -50,22 +42,12 @@ return[
 
 
 //    destination page
-    "choosedes" => "Manzilingizni tanlang",
-    "topdes" => "Eng yaxshi yo'nalishlar",
-    "popdes" => "yo'nalishlar",
-    "more" => "Batafsil",
+    "category" => "Tur paket kategoriyalari",
 
 
 
-//    Popular page
-    "most" => "eng mashxur",
-    "mosttravel" => "sayohat",
-    "country" => "mamlakatlari",
-    "italy" => "Italya, Yevropa",
-    "france" => "Fransiya, Yevropa",
-    "italyp"  => "Italiya Respublikasi Yevropa janubida, Oʻrta dengiz havzasida joylashgan davlat. Apennin yarim orol, Sitsiliya, Sardiniya va boshqa kichik orollarni oʻz ichiga olgan.",
-    "francep"  => "Gʻarbiy Yevropadagi davlat. Gʻarbda va shimolda Atlantika okeani hamda La-Mansh boʻgʻozi, janubida Oʻrta dengiz bilan oʻralgan.",
 
+//    Hotel page
 
 
 //     blog page

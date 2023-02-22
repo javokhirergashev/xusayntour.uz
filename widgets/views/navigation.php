@@ -42,7 +42,7 @@
                         <span class="icon-bar "></span>
                         <span class="icon-bar "></span>
                     </button>
-                    <a class="navbar-brand" href="file:///E:/Xampp/htdocs/skyline/index.html" title="Skyline"><img src="frontend-files/images/Home-1/sky-logo-header.png" alt="#"></a>
+                    <a class="navbar-brand" href="file:///E:/Xampp/htdocs/skyline/index.html" title="Skyline"><img src="frontend-files/images/Home-1/logo.png" alt="#"></a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -141,16 +141,16 @@
         <div class="item">
             <img alt="Third slide" src="frontend-files/images/Home-1/Slider-v1.jpg" class="img-responsive">
             <div class="carousel-caption">
-                <h1><?= Yii::t("app", "whychoos")?></h1>
-                <p><span class="line-t"></span>Hotels & Resorts <span class="line-b"></span></p>
+                <h1><?= Yii::t("app", "slider1")?></h1>
+                <p><span class="line-t"></span><?= Yii::t("app", "sliders1")?> <span class="line-b"></span></p>
             </div>
         </div>
         <div class="item">
             <img alt="Third slide" src="frontend-files/images/Home-2/Slider-v2.jpg" class="img-responsive">
             <div class="container">
                 <div class="carousel-caption ">
-                    <h1 class="v2">Enjoy a Luxury  Experience</h1>
-                    <p class="p-v2"><span class="line-t"></span>Hotels & Resorts <span class="line-b"></span></p>
+                    <h1 class="v2"><?= Yii::t("app", "slider2")?></h1>
+                    <p class="p-v2"><span class="line-t"></span><?= Yii::t("app", "sliders2")?><span class="line-b"></span></p>
                 </div>
             </div>
         </div>

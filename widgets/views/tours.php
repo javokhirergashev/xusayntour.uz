@@ -1,9 +1,8 @@
 <!-- OUR-ROOMS-->
 <section class="rooms">
     <div class="container">
-        <h2 class="title-room">Our Rooms</h2>
+        <h2 class="title-room"><?= Yii::t("app", "tours")?></h2>
         <div class="outline"></div>
-        <p class="rooms-p">When you host a party or family reunion, the special celebrations let you streng then bonds with</p>
         <div class="wrap-rooms">
             <div class="row">
                 <div id="rooms" class="owl-carousel owl-theme">

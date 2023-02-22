@@ -2,7 +2,7 @@
 <section class="gallery-our">
     <div class="container-fluid">
         <div class="gallery">
-            <h2 class="title-gallery">Our Gallery</h2>
+            <h2 class="title-gallery"><?= Yii::t("app", "galleryinfo")?></h2>
             <div class="outline"></div>
             <ul class="nav nav-tabs text-uppercase">
                 <li class="active"><a data-toggle="tab" href="#Hotel">Hotel & Ground</a></li>
@@ -267,7 +267,6 @@
             </div>
             <!-- end-tab-content -->
             <div class="text-center">
-                <button type="button" class="btn btn-default btn-our">VIEW MORE</button>
             </div>
         </div>
         <!-- /gallery -->
