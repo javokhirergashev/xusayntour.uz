@@ -6,10 +6,10 @@ return[
 
 
 //    slider page
-    "awesome" => "Ajoyib",
-    "travel" => "Sayohatlarga tayyormisiz?",
-    'show' => "Biz sizga",
-    "showyou" => "Qiziqarli sayohatlarni ko'rsatamiz",
+    "slider1" => "Sarguzashtli Sayohatlar",
+    "sliders1" => "Hoziroq buyurtma bering",
+    "slider2" => "Dunyo bo'ylab sayohat qiling!",
+    "sliders2" => "Hoziroq buyurtma bering",
 
 
 //    Services page

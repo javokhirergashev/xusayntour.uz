@@ -141,7 +141,7 @@
         <div class="item">
             <img alt="Third slide" src="frontend-files/images/Home-1/Slider-v1.jpg" class="img-responsive">
             <div class="carousel-caption">
-                <h1>Welcome to Skyline</h1>
+                <h1><?= Yii::t("app", "whychoos")?></h1>
                 <p><span class="line-t"></span>Hotels & Resorts <span class="line-b"></span></p>
             </div>
         </div>
