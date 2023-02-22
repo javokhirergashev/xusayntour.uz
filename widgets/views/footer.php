@@ -1,57 +1,108 @@
-<!--Footer Section-->
-<footer class="footer" id="footer"><!-- Section id -->
-
-    <div class="container">
-
-        <div class="row">
-
-            <div class="col-lg-12 text-center footer-logo wow fadeInDown"><!-- logo -->
-                <a href="#wrapper"><img src="/frontend-files/images/logo-white.png" class="img-responsive" alt=""></a>
-            </div>
-            <?php if(!empty($contacts)):?>
-                <?php foreach ($contacts as $contact):?>
-            <div class="col-md-4 col-sm-4 wow fadeInLeft">
-                <div class="footer-block"><!-- footer block -->
-                    <img src="/frontend-files/images/call-icon.png" alt="Call"><!-- call icon -->
-                    <h5><?=Yii::t("app", "callus")?></h5>
-                    <h4><?=$contact->first_phone?></h4>
+<!--FOOTER-->
+<footer class="footer-sky">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
+                    <div class="icon-email">
+                        <a href="#" title="Email"><img src="frontend-files/images/Home-1/footer-top-icon-l.png" alt="Email" class="img-responsive"></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 col-sm-4 wow fadeInDown">
-                <div class="footer-block"><!-- footer block -->
-                    <img src="/frontend-files/images/mail-icon.png" alt="Email"><!-- mail icon -->
-                    <h5><?=Yii::t("app", "writeus")?></h5>
-                    <h4><?=$contact->email?></h4>
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-5">
+                    <div class="textbox">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Your email address" aria-label="Search for...">
+                                    <button class="btn btn-secondary" type="button">
+                                        <i class="ion-android-send"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 col-sm-4 wow fadeInRight">
-                <div class="footer-block"><!-- footer block -->
-                    <img src="/frontend-files/images/location-icon.png" alt="Location"><!-- location icon -->
-                    <h5><?=Yii::t("app", "writeus")?></h5>
-                    <h4><?=$contact->addres?></h4>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6 text-right">
+                    <div class="footer-icon-l">
+                        <a href="#" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" title="Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="#" title="Tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+                        <a href="#" title="Isnstagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-12 wow fadeInUp">
-                <div class="footer-social">
-                    <ul class="list-inline">
-                        <li> <a href="<?=$contact->telegram_link?>" class="telegram"><i class="uil uil-telegram"></i></i></a></li>
-                        <li> <a href="<?=$contact->facebook_link?>" class="facebook"><i class="uil uil-facebook-f"></i></a></li>
-                        <li> <a href="<?=$contact->instagram_link?>" class="instagram"><i class="uil uil-instagram"></i></a></li>
-                        <li> <a href="<?=$contact->tweetter_link?>" class="twitter"><i class="uil uil-twitter"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-                <?php endforeach;?>
-            <?php endif;?>
-        </div>
-
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 copyright">
-                <p>&copy; 2022 WebSpace IT Club. All Rights Reserved.</p>
             </div>
         </div>
+        <!-- /container -->
     </div>
-
+    <!-- /footer-top -->
+    <div class="footer-mid">
+        <div class="container">
+            <div class="row padding-footer-mid">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <div class="footer-logo text-center list-content">
+                        <a href="index.html" title="Skyline"><img src="frontend-files/images/Home-1/sky-logo-footer.png" alt="Image"></a>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1  ">
+                    <div class="list-content">
+                        <ul>
+                            <li><a href="attractions.html" title="">Site Map</a></li>
+                            <li><a href="tems_condition_1.html" title="">Term & Conditions</a></li>
+                            <li><a href="#" title="">Privacy Policy</a></li>
+                            <li><a href="#" title="">Help</a></li>
+                            <li><a href="#" title="">Affiliate</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1 ">
+                    <div class="list-content ">
+                        <ul>
+                            <li><a href="#" title="">Our Location</a></li>
+                            <li><a href="#" title="">Career</a></li>
+                            <li><a href="about.html" title="">About Us</a></li>
+                            <li><a href="contact.html" title="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1">
+                    <div class="list-content ">
+                        <ul>
+                            <li><a href="#" title="">FAQS</a></li>
+                            <li><a href="#" title="">News</a></li>
+                            <li><a href="gallery_1.html" title="">Photo & Video</a></li>
+                            <li><a href="restaurant_1.html" title="">Restaurant</a></li>
+                            <li><a href="#" title="">Gift Card</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+                    Copyright © 2017 by <a href="#" title="">EngoTheme.</a> SkyLine Hotel Theme crafted with love
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+                    <div class="payments text-right">
+                        <ul>
+                            <li>
+                                <a href="#" title="Paypal"><img src="frontend-files/images/Home-1/Paypal.png" alt="Paypal"></a>
+                            </li>
+                            <li>
+                                <a href="#" title="Visa"><img src="frontend-files/images/Home-1/Visa.png" alt="Visa"></a>
+                            </li>
+                            <li>
+                                <a href="#" title="Master"><img src="frontend-files/images/Home-1/Master-card.png" alt="Master"></a>
+                            </li>
+                            <li>
+                                <a href="#" title="Discover"><img src="frontend-files/images/Home-1/Discover.png" alt="Discover"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
+<!-- END / FOOTER-->
+<!--SCOLL TOP-->
+<a href="#" title="sroll" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+<!--END / SROLL TOP-->
