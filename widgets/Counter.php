@@ -4,10 +4,10 @@ namespace app\widgets;
 
 use yii\bootstrap4\Widget;
 
-class Slider extends Widget
+class Counter extends Widget
 {
     public function run()
     {
-       return $this->render('slider');
+        return $this->render('counter');
     }
 }

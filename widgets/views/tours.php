@@ -1,60 +1,220 @@
-<!--Tours Section Here-->
-<section class="news" id="news">
+<!-- OUR-ROOMS-->
+<section class="rooms">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center"><!-- section title -->
-                <div class="section-title">
-                    <h1 class="section-heading"><?=Yii::t("app", "tours")?></h1>
-                    <span class="divider"><img src="frontend-files/images/sep-1.png" alt="Divider"></span>
+        <h2 class="title-room">Our Rooms</h2>
+        <div class="outline"></div>
+        <p class="rooms-p">When you host a party or family reunion, the special celebrations let you streng then bonds with</p>
+        <div class="wrap-rooms">
+            <div class="row">
+                <div id="rooms" class="owl-carousel owl-theme">
+                    <div class="item ">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-1.jpg" class="img-responsive" alt="PLuxury Room" title="Luxury Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Luxury Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-2.jpg" class="img-responsive" alt="Double Room" title="Double Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Double Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-3.jpg" class="img-responsive" alt="Family Room" title="Family Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Family Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-4.jpg" class="img-responsive" alt="Deluxe Room" title="Deluxe Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Deluxe Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-5.jpg" class="img-responsive" alt="Single Room" title="Single Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Single Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-6.jpg" class="img-responsive" alt="Presidential Room" title="Presidential Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Presidential Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-1.jpg" class="img-responsive" alt="PLuxury Room" title="Luxury Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Luxury Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-2.jpg" class="img-responsive" alt="Double Room" title="Double Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Double Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-3.jpg" class="img-responsive" alt="Family Room" title="Family Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Family Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-4.jpg" class="img-responsive" alt="Deluxe Room" title="Deluxe Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Deluxe Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-5.jpg" class="img-responsive" alt="Single Room" title="Single Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Single Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-6.jpg" class="img-responsive" alt="Presidential Room" title="Presidential Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Presidential Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-1.jpg" class="img-responsive" alt="PLuxury Room" title="Luxury Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Luxury Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-2.jpg" class="img-responsive" alt="Double Room" title="Double Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Double Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-3.jpg" class="img-responsive" alt="Family Room" title="Family Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Family Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-4.jpg" class="img-responsive" alt="Deluxe Room" title="Deluxe Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Deluxe Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-5.jpg" class="img-responsive" alt="Single Room" title="Single Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Single Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-6 ">
+                            <div class="wrap-box">
+                                <div class="box-img">
+                                    <img src="frontend-files/images/Home-1/our-6.jpg" class="img-responsive" alt="Presidential Room" title="Presidential Room">
+                                </div>
+                                <div class="rooms-content">
+                                    <h4 class="sky-h4">Presidential Room</h4>
+                                    <p class="price">$320 / Per Night</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-
-            <?php if (!empty($models)):?>
-            <?php foreach ($models as $model):?>
-
-            <?php
-                $img = \app\models\StaticFunctions::getImage("tours", $model->id, $model->images);
-            ?>
-
-            <div class="col-md-4 col-sm-4 wow fadeInDown">
-                <article class="blog-post-container clearfix">
-                    <div class="post-thumbnail">
-                        <img src="<?=$img?>" class="img-responsive " alt="Image">
-                        <div class="post-date">
-                            <span class="dart-fs-26 dart-fw-500"><?=$model->period?></span>
-<!--                            <span class="dart-fs-14">AUG</span>-->
-                        </div>
-                    </div><!-- /.post-thumbnail -->
-
-                    <div class="blog-content">
-                        <div class="dart-header">
-                            <h4 class="dart-title"><a href="blog-single.html"><?=$model["title_".Yii::$app->language]?></a></h4>
-                            <div class="dart-meta">
-                                <ul class="list-unstyled">
-                                    <li><span class="author"><?=$model->price?></a></span></li>
-<!--                                    <li><span><a href="#">IN WEB DESIGN</a></span></li>-->
-                                </ul>
-                            </div><!-- /.dart-meta -->
-                        </div><!-- /.dart-header -->
-
-                        <div class="dart-content">
-                            <p><?=$model["description_".Yii::$app->language]?></p>
-                        </div><!-- /.dart-content -->
-
-                        <div class="dart-footer light-gray">
-                            <ul class="dart-meta clearfix list-unstyled">
-                                <li><a class="pull-left" href="#"><i class="fa fa-heart"></i> &nbsp; 30</a></li>
-                                <li><a class="pull-left" href="#"><i class="fa fa-comment"></i> &nbsp; 30</a></li>
-                                <li><a class="pull-right btn-more" href="<?=\yii\helpers\Url::to(["toursview/view", "id"=>$model->id])?>"> <i class="fa fa-long-arrow-right"> <?=Yii::t("app", "more")?> </i></a></li>
-                            </ul>
-                        </div><!-- /.dart-footer -->
-                    </div><!-- /.blog-content -->
-                </article>
-            </div>
-            <?php endforeach;?>
-         <?php endif;?>
-        </div><!-- /.row -->
     </div>
+    <!-- /container -->
 </section>
+<!-- END / ROOMS -->
