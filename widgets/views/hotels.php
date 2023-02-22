@@ -1,7 +1,7 @@
 <section class="banner-tems text-center">
     <div class="container">
         <div class="banner-content">
-            <h2>ROOMS & RATES</h2>
+            <h2><?= Yii::t("app", "hotels")?></h2>
             <p>Lorem Ipsum is simply dummy text of the printing</p>
         </div>
     </div>

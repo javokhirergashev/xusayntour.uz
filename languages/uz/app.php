@@ -29,6 +29,9 @@ return[
 
 //  Gallery info
     "galleryinfo" => "Bizning gallereyamiz",
+    "hotels" => "Mehmonxonalar",
+
+
 
 
 //    Tours page
