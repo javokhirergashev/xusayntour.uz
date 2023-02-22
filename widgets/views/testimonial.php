@@ -1,45 +1,30 @@
-<!-- Testimonial Section -->
-<section class="testimonials" id="testimonial"><!-- section id -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center"><!-- section title -->
-                <div class="section-title">
-                    <h1 class="section-heading"><?=Yii::t("app", "testmon")?></h1>
-                    <span class="divider"><img src="/frontend-files/images/sep-1.png" alt="Divider"></span>
-                </div>
-            </div>
-            <div class="carousel slide text-center" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
-
-
-                <!-- Carousel items -->
-                <div class="container">
-                    <?php if (!empty($models)):?>
-                    <?php foreach ($models as $model):?>
-
-                    <?php
-                    $img = \app\models\StaticFunctions::getImage("testimonials", $model->id, $model->images);
-                    ?>
-                    <div class="carousel-inner">
-
-                        <div class="item active">
-                            <p><?=$model["comment_".Yii::$app->language]?></p>
-                            <div class="profile-circle"><img src="<?=$img?>" alt="avtar"></div>
-                            <p class="person"><?=$model->name?></p>
-                            <p class="per-den"><?=$model->email?></p>
-                        </div>
-
-<!--                        <div class="item">-->
-<!--                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.<br>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of sprin</p>-->
-<!--                            <div class="profile-circle"><img src="frontend-files/images/avtar-1.png" alt="avtar"></div>-->
-<!--                            <p class="person">Jone deo</p>-->
-<!--                            <p class="per-den"> Traveler</p>-->
-<!--                        </div>-->
+<!-- TESTIMONOALS -->
+<section class="testimonials">
+    <div class="testimonials-h">
+        <div class="testimonials-content">
+            <div class="container">
+                <div id="testimonials" class="owl-carousel owl-theme">
+                    <div class="item ">
+                        <div class="img-testimonials"><img src="frontend-files/images/Home-1/about-testimonials-img.png" alt="#"></div>
+                        <p class="testimonials-p"><span>“</span>​‌ This is the only place to stay in Catalina! I have stayed in the cheaper hotels and they were fine, but this is just the icing on the cake! After spending the day bike riding and hiking to come back and enjoy a glass of wine while looking out your <span>​‌​‌”</span> ocean view window and then to top it all off...</p>
+                        <h5 class="sky-h5">JULIA ROSE</h5>
+                        <p class="testimonials-p1">From Los Angeles, California</p>
                     </div>
-                        <?php endforeach;?>
-                    <?php endif;?>
+                    <div class="item">
+                        <div class="img-testimonials"><img src="frontend-files/images/Home-1/about-testimonials-img.png" alt="#"></div>
+                        <p class="testimonials-p"><span>“</span>​‌ Thisis the only place to stay in Catalina! I have stayed in the cheaper hotels and they were fine, but this is just the icing onthe cake! After spending the day bike riding and hiking to come back and enjoy a glass of wine while looking out your <span>​‌​‌”</span> ocean view window and then to top it all off...</p>
+                        <h5 class="sky-h5">JULIA ROSE</h5>
+                        <p class="testimonials-p1">From Los Angeles, California</p>
+                    </div>
+                    <div class="item">
+                        <div class="img-testimonials"><img src="frontend-files/images/Home-1/about-testimonials-img.png" alt="#"></div>
+                        <p class="testimonials-p"><span>“</span>​‌ This is the only place to stay in Catalina! I have stayed in the cheaper hotels and they were fine, but this is just the icing on the cake! After spending the day bike riding and hiking to come back and enjoy a glass of wine while looking out your <span>​‌​‌”</span> ocean view window and then to top it all off...</p>
+                        <h5 class="sky-h5">JULIA ROSE</h5>
+                        <p class="testimonials-p1">From Los Angeles, California</p>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
 </section>
+<!-- END / TESTIMONOALS -->
