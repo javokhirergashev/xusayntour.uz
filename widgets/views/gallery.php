@@ -4,12 +4,6 @@
         <div class="gallery">
             <h2 class="title-gallery"><?= Yii::t("app", "galleryinfo")?></h2>
             <div class="outline"></div>
-            <ul class="nav nav-tabs text-uppercase">
-                <li class="active"><a data-toggle="tab" href="#Hotel">Hotel & Ground</a></li>
-                <li><a data-toggle="tab" href="#menu1">Room/Suite </a></li>
-                <li><a data-toggle="tab" href="#menu2">Bathroom</a></li>
-                <li><a data-toggle="tab" href="#menu3">Dining</a></li>
-            </ul>
             <br/>
             <div class="tab-content">
                 <div id="Hotel" class="tab-pane fade in active">

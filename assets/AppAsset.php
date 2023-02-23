@@ -46,6 +46,7 @@ class AppAsset extends AssetBundle
         "../../../../cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.js",
         "https://maps.googleapis.com/maps/api/js?key=AIzaSyBDyCxHyc8z9gMA5IlipXpt0c33Ajzqix4",
         "js/sky.js",
+        "js/form.js",
     ];
   public $depends = [
         'yii\web\YiiAsset',
