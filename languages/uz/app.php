@@ -38,15 +38,19 @@ return[
     "tours" => "Tur paketlar",
 
 //    Counter page
-    "flight" => "Parvozni bron qilish",
-    "amazing" => "Ajoyib sayohat",
-    "cruises" => "Kruizlarni bron qilish",
-    "ticket" => "Chipta bron qilish",
+    "counter1" => "Parvozni bron qilish",
+    "counter2" => "Ajoyib sayohat",
+    "counter3" => "Kruizlarni bron qilish",
+    "counter4" => "Chipta bron qilish",
 
 
 //    destination page
     "category" => "Tur paket kategoriyalari",
 
+
+// conact
+
+    "contact1" => "Kontaktlar",
 
 
 

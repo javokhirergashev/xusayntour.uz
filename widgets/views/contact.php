@@ -5,12 +5,15 @@
             <div class="row">
                 <div class="col-md-6 col-lg-5">
                     <div class="text">
-                        <h2>Contact</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                        <h2><?= Yii::t("app", "contact1")?></h2>
                         <ul>
-                            <li><i class=" fa ion-ios-location-outline"></i> 121 King Str, Melbourne Victoria</li>
-                            <li><i class="fa fa-phone" aria-hidden="true"></i> 1-548-854-8898</li>
-                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="https://landing.engotheme.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="92faf7fefefdd2e1f9ebfefbfcf7fafde6f7febcf1fdff">[email&#160;protected]</a></li>
+                            <?php if (!empty($models)):?>
+                                <?php foreach ($models as $model) :?>
+                                    <li><i class=" fa ion-ios-location-outline"></i><?=$model->addres?></li>
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i> <?=$model->first_phone?></li>
+                                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i><?=$model->email?></li>
+                                <?php endforeach;?>
+                            <?php endif;?>
                         </ul>
                     </div>
                 </div>
@@ -19,19 +22,29 @@
                         <form action="https://landing.engotheme.com/html/skyline/demo/send_mail_contact.php" method="post">
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <input type="text" class="field-text" name="name" placeholder="Name">
+                                    <input type="text" class="field-text" name="name" id="name" placeholder="Ism">
                                 </div>
                                 <div class="col-sm-6">
-                                    <input type="text" class="field-text" name="email" placeholder="Email">
-                                </div>
-                                <div class="col-sm-12">
-                                    <input type="text" class="field-text" name="subject" placeholder="Subject">
-                                </div>
-                                <div class="col-sm-12">
-                                    <textarea cols="30" rows="10" name="message" class="field-textarea" placeholder="Write what do you want"></textarea>
+                                    <input type="text" class="field-text" name="email" id="email" placeholder="Email">
                                 </div>
                                 <div class="col-sm-6">
-                                    <button type="submit" class="btn btn-room">SEND</button>
+                                    <input type="tel" class="field-text" name="email" id="phone" placeholder="Tel">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="date" class="field-text" name="email" id="date">
+                                </div>
+                                <div class="col-sm-12">
+                                    <select style="height: 42px; border: 2px solid #232323; width: 100%;  margin-top: 15px; padding-left: 15px;padding-right: 15px;" name="message" id="select" >
+                                        <option disabled selected>Tur kategoriyani tanlang</option>
+                                        <?php if(!empty($tours)):?>
+                                            <?php foreach ($tours as $tour):?>
+                                                <option><?=$tour["title_".Yii::$app->language];?></option>
+                                            <?php endforeach;?>
+                                        <?php endif;?>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="submit" onclick="booking()" class="btn btn-room">Yuborish</button>
                                 </div>
                             </div>
                         </form>
@@ -44,6 +57,7 @@
 <!-- END / CONTACT -->
 <!-- MAP -->
 <div class="section-map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6124.155496132579!2d144.95267262759506!3d-37.81807247133261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4dd58ef1f9%3A0x924c91f561a4fd11!2s121+King+St%2C+Melbourne+VIC+3000%2C+%C3%9Ac!5e0!3m2!1svi!2s!4v1510819444662" height="470" allowfullscreen></iframe>
+    <iframe width="1900" height="595" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1900&amp;height=595&amp;hl=en&amp;q=%20Namangan+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'>Maps Generator</a>
+    </iframe>
 </div>
 <!-- END / MAP -->

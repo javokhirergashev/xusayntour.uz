@@ -1,37 +1,86 @@
-<section  class="contact" id="contact"><!-- section id -->
+<!-- ABOUT-US-->
+<section class="about">
     <div class="container">
         <div class="row">
-            <div class="col-lg-push-6 col-lg-6"><!-- contact info -->
-                <div class="section-title wow fadeInDown">
-                    <h1 class="section-heading"><?=Yii::t("app", "contactinfo")?></h1>
+            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                <div class="about-centent">
+                    <h2 class="about-title"><?= Yii::t("app", "about")?></h2>
+                    <div class="line"></div>
+                    <p class="about-p"><?= Yii::t("app", "about1")?></p>
+                    <p class="about-p1"><?= Yii::t("app", "about2")?></p>
                 </div>
-                <div class="contact-form wow fadeInLeft"><!-- contact form -->
-                    <form action="https://html-templates.multipurposethemes.com/traveltwo/send_email.php" id="contact" name="contact" method="post">
-                        <div class="form-group">
-                            <input class="form-control" name="InputName1" id="InputName1" placeholder="<?=Yii::t("app", "name")?>" required="" type="text">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7 ">
+                <div class="about-img">
+                    <div class="img-1">
+                        <img src="frontend-files/images/Home-1/about-3.jpg" class="img-responsive" alt="Image">
+                        <div class="img-2">
+                            <img src="frontend-files/images/Home-1/about-1.jpg" class="img-responsive" alt="Image">
                         </div>
-                        <div class="form-group">
-                            <input class="form-control" name="InputName1" id="InputSurname1" placeholder="<?=Yii::t("app", "surname")?>" required="" type="text">
+                        <div class="img-3">
+                            <img src="frontend-files/images/Home-1/about-2.jpg" class="img-responsive" alt="Image">
                         </div>
-                        <div class="form-group">
-                            <input class="form-control" name="InputEmail1" id="InputEmail1" placeholder="<?=Yii::t("app", "email")?>" required="" type="email">
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" name="InputPhone1" id="InputPhone1" placeholder="<?=Yii::t("app", "tel")?>" required="" type="text">
-                        </div>
-
-
-                        <div class="form-group">
-                            <textarea class="form-control" name="InputMessage" id="InputMessage1" rows="4" placeholder="<?=Yii::t("app", "message")?>" required=""></textarea>
-                        </div>
-
-                        <button name="submit" type="submit" id="submit1" onclick="getValue()" class="btn btn-default fs-18"><?=Yii::t("app", "send")?></button>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
 </section>
+<!-- END/ ABOUT-US-->
 
-
+<!-- BEST -->
+<section class="best">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                <div class="wrap-best">
+                    <div class="icon-best">
+                        <img src="frontend-files/images/Home-1/about-icon-1.png" class="img-responsive" alt="Image">
+                    </div>
+                    <h6 class="sky-h6"><?= Yii::t("app", "service1")?></h6>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                <div class="wrap-best">
+                    <div class="icon-best">
+                        <img src="frontend-files/images/Home-1/about-icon-2.png" class="img-responsive" alt="Image">
+                    </div>
+                    <h6 class="sky-h6"><?= Yii::t("app", "service2")?></h6>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                <div class="wrap-best">
+                    <div class="icon-best">
+                        <img src="frontend-files/images/Home-1/about-icon-4.png" class="img-responsive" alt="Image">
+                    </div>
+                    <h6 class="sky-h6"><?= Yii::t("app", "service3")?></h6>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                <div class="wrap-best">
+                    <div class="icon-best">
+                        <img src="frontend-files/images/Home-1/about-icon-5.png" class="img-responsive" alt="Image">
+                    </div>
+                    <h6 class="sky-h6"><?= Yii::t("app", "service4")?></h6>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                <div class="wrap-best">
+                    <div class="icon-best">
+                        <img src="frontend-files/images/Home-1/about-icon-7.png" class="img-responsive" alt="Image">
+                    </div>
+                    <h6 class="sky-h6"><?= Yii::t("app", "service5")?></h6>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                <div class="wrap-best">
+                    <div class="icon-best">
+                        <img src="frontend-files/images/Home-1/about-icon-8.png" class="img-responsive" alt="Image">
+                    </div>
+                    <h6 class="sky-h6"><?= Yii::t("app", "service6")?></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END / BEST -->
